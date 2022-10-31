@@ -1,0 +1,15 @@
+@use '../utils/function.scss' as *;
+@use '../utils/mixins.scss' as *;
+
+%page {
+	@extend %cover;
+	position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	z-index: z('content');
+}
+
+%page--active {
+	visibility: visible;
+	opacity: 1;
+}

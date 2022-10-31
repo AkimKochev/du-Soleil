@@ -1,8 +1,32 @@
+/*!
+ * CSSPlugin 3.11.3
+ * https://greensock.com
+ *
+ * Copyright 2008-2022, GreenSock. All rights reserved.
+ * Subject to the terms at https://greensock.com/standard-license or for
+ * Club GreenSock members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * GSAP 3.11.3
+ * https://greensock.com
+ *
+ * @license Copyright 2008-2022, GreenSock. All rights reserved.
+ * Subject to the terms at https://greensock.com/standard-license or for
+ * Club GreenSock members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*! ../../classes/Scrolling.js */
+
 /*! ../modules/logger/index.js */
 
 /*! ../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */
 
 /*! ../utils/log.js */
+
+/*! ./CSSPlugin.js */
 
 /*! ./Logger */
 
@@ -12,7 +36,11 @@
 
 /*! ./emitter */
 
+/*! ./gallery.js */
+
 /*! ./getCurrentScriptSource.js */
+
+/*! ./gsap-core.js */
 
 /*! ./log */
 
@@ -29,6 +57,8 @@
 /*! ./numeric-unicode-map */
 
 /*! ./overlay.js */
+
+/*! ./pages/Home/index.js */
 
 /*! ./socket.js */
 
@@ -50,6 +80,8 @@
 
 /*! events */
 
+/*! gsap */
+
 /*! html-entities */
 
 /*! tapable/lib/SyncBailHook */
@@ -68,9 +100,33 @@
   !*** ./styles/index.scss ***!
   \***************************/
 
+/*!*********************************!*\
+  !*** ./app/pages/Home/index.js ***!
+  \*********************************/
+
+/*!**********************************!*\
+  !*** ./app/classes/Scrolling.js ***!
+  \**********************************/
+
+/*!***********************************!*\
+  !*** ./app/pages/Home/gallery.js ***!
+  \***********************************/
+
+/*!************************************!*\
+  !*** ./node_modules/gsap/index.js ***!
+  \************************************/
+
 /*!***************************************!*\
   !*** ./node_modules/events/events.js ***!
   \***************************************/
+
+/*!****************************************!*\
+  !*** ./node_modules/gsap/CSSPlugin.js ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./node_modules/gsap/gsap-core.js ***!
+  \****************************************/
 
 /*!*****************************************!*\
   !*** ./node_modules/webpack/hot/log.js ***!

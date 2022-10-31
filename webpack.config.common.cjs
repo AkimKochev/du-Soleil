@@ -20,7 +20,6 @@ module.exports = {
 	resolve: {
 		modules: [dirApp, dirStatic, dirStyles, dirNode], // [..., dirStatic, ...]
 	},
-
 	plugins: [
 		new webpack.DefinePlugin({
 			IS_DEVELOPMENT,

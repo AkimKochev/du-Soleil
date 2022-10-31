@@ -1,0 +1,21 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	user-select: none;
+}
+
+body,
+html {
+	scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	display: none;
+}
+
+img {
+	width: 100%;
+	display: inline-block;
+}
